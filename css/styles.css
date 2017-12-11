@@ -1,0 +1,28 @@
+body{
+   background-color: black;
+    background-size: 100% 100%;
+}
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+li{ float: left;}
+
+ul.sidenav li a:hover {
+    
+    color: aqua;
+}
+ul.sidenav li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#00838f;
+    
+    
+}
