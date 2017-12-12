@@ -6,12 +6,15 @@ ul.sidenav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 50%;
     position: fixed;
     height: 100%;
     overflow: auto;
+    
     }
-li{ float: left;}
+li{ float: left;
+}
+
 
 ul.sidenav li a:hover {
     
@@ -22,7 +25,87 @@ ul.sidenav li a{
     padding: 8px 16px;
     text-decoration: none;
     font-size: 18px;
-    color:#00838f;
+    color:#29b6f6;
     
+    }
+
+.Iam {
+  padding: 2em 5em;
+  font: normal 40px/50px Montserrat, sans-serif;
+  color: #fff;
+}
+.Iam h1 {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
     
+}
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 40px;
+
+}
+.Iam .innerIam {
+  display: inline-block;
+  color: aqua;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+    left: 0;
+-webkit-animation:move 5s;
+   -moz-animation:move 5s;
+    -ms-animation:move 5s;
+     -o-animation:move 5s;
+        animation:move 5s;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:infinite;
+   -moz-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+     -o-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+/*animation-delay*/
+-webkit-animation-delay:1s;
+   -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+     -o-animation-delay:1s;
+        animation-delay:1s;
+}
+@keyframes move{
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
 }
