@@ -109,3 +109,18 @@ ul.sidenav li a{
     60% { top: -150px; }
     80% { top: -200px; }
 }
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+.container {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
