@@ -2,42 +2,64 @@ body{
    background-color: black;
     background-size: 100% 100%;
 }
-ul.sidenav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    
-    }
-li{ float: left;
+
+a {
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+    font-size: 1.5em;
+
+}
+a:hover {
+
+	color: aqua;
+
+}
+header {
+    width: 100%;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+
+}
+nav {
+
+	float: right;
+	padding: 20px;	
+
 }
 
+a:hover#menu-icon {
 
-ul.sidenav li a:hover {
-    
-    color: aqua;
+	background-color: #fff;
+	border-radius: 4px 4px 0 0;
+
 }
-ul.sidenav li a{
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color:#29b6f6;
-    
+ul {
+    list-style-type:none;
     }
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
 
 .Iam {
   padding: 2em 5em;
   font: normal 40px/50px Montserrat, sans-serif;
   color: #fff;
+    
 }
 .Iam h1 {
   height: 50px;
   float: left;
   margin-right: 0.3em;
+    
     
 }
 .Iam b {
@@ -46,7 +68,7 @@ ul.sidenav li a{
   position: relative;
   height: 50px;
   top: 40px;
-
+    
 }
 .Iam .innerIam {
   display: inline-block;
